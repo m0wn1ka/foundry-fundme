@@ -1,0 +1,57 @@
+radha@DESKTOP-E4J3HG3:~/solidity/fundme-simple$ forge script script/DeployFundMe.s.sol --rpc-url $rpc_urll --private-
+key $private_key --broadcast
+[⠘] Compiling...
+No files changed, compilation skipped
+Script ran successfully.
+
+== Return ==
+0: contract FundMe 0xbBeA80cCaFA80B1B89AAA6F35f015D2852A60EDc
+
+## Setting up (1) EVMs.
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 3.440317708 gwei
+
+Estimated total gas used for script: 396635
+
+Estimated amount required: 0.00136455041411258 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 0].
+⠁ [00:00:00] [######################################################################################] 1/1 txes (0.0s)
+Transactions saved to: /home/radha/solidity/fundme-simple/broadcast/DeployFundMe.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /home/radha/solidity/fundme-simple/cache/DeployFundMe.s.sol/11155111/run-latest.json
+
+##
+Waiting for receipts.
+⠉ [00:00:06] [##################################################################################] 1/1 receipts (0.0s)
+##### sepolia
+✅  [Success]Hash: 0x153bb1fe996d206bc669ab83870d2b0122ac30fabc09f8ef46013512dea56a71
+Contract Address: 0xbBeA80cCaFA80B1B89AAA6F35f015D2852A60EDc
+Block: 4066546
+Paid: 0.000981313474506588 ETH (305174 gas * 3.215586762 gwei)
+
+
+Transactions saved to: /home/radha/solidity/fundme-simple/broadcast/DeployFundMe.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /home/radha/solidity/fundme-simple/cache/DeployFundMe.s.sol/11155111/run-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+Total Paid: 0.000981313474506588 ETH (305174 gas * avg 3.215586762 gwei)
+
+Transactions saved to: /home/radha/solidity/fundme-simple/broadcast/DeployFundMe.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /home/radha/solidity/fundme-simple/cache/DeployFundMe.s.sol/11155111/run-latest.json
+
